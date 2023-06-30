@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #BB7498;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+.cabecalho-imagem{
+    width: 13%;
+}
+
+.cabecalho-lista-item{
+display: inline-block;
+margin: 0 16px;
+font-size: 24px
+}
+.escola-imagem{
+    width: 40%;
+}
