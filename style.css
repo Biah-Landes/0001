@@ -8,17 +8,36 @@
     color: azure;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 5px 0;
 }
 .cabecalho-imagem{
-    width: 13%;
+    width: 30%;
 }
 
 .cabecalho-lista-item{
 display: inline-block;
 margin: 0 16px;
-font-size: 24px
+font-style: italic;
 }
 .escola-imagem{
-    width: 40%;
+    width: 45%;
+}
+
+
+.loja-de-doces-imagem{
+    width: 55%;
+}  
+
+.trufas{
+    background-image: linear-gradient( #BB7498,#FABFF6);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.loja-div-doces{
+    width: 25%;
 }
