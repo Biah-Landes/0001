@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+.body{
+    font-family: 'Merriweather', serif;
+
+}
+.cabecalho{  
+    background-color: #BB7498;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+.cabecalho-imagem{
+    width: 25%;
+}
+
+.cabecalho-lista-item{
+display: inline-block;
+margin: 0 16px;
+font-style: italic;
+}
+
+.lojas{
+    background-image: linear-gradient( #FABFF6,#BB7498);
+}
+
+.lojas-imagem{
+    width: 30%;
+}
+
+
+.loja-de-doces-imagem{
+    width: 40%;
+}  
+
+.trufas{
+    background-image: linear-gradient( #BB7498,#FABFF6);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.loja-div-doces{
+    width: 30%;
+
+}
+.lojas-imagem{
+    width: 120px;
+}
+.lojas-icone{
+    width: 30px;
+}
+
+.lojas-div{
+   text-align: center;
+}
+   .Lojas-titulo{
+    text-align: center;
+    padding: 50px 0;
+   }
+   .lojas-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+   }
+   .rodape{
+    background-color: #BB7498;
+    text-align: center;
+   }
+    .rodape-imagem{
+        height: 120px; padding: 12px 0;
+    }
